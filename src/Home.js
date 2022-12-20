@@ -9,9 +9,7 @@ const Home = () => {
 
 const Wrapper = styled.section`
 background-color: ${({theme})=>theme.colors.bg};
-width:20rem;
-height:20rem;
-
+ height:100vh; 
 `;
 
 export default Home;
