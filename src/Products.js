@@ -1,8 +1,13 @@
 import React from "react";
 import styled from "styled-components";
+import { useProductContext } from "./context/productContaxt";
 
 const Products = () => {
-  return <Wrapper></Wrapper>;
+
+  const {myName} = useProductContext();
+  return <Wrapper>
+    {myName}
+  </Wrapper>;
 };
 
 const Wrapper = styled.section`
