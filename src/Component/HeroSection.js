@@ -12,7 +12,7 @@ const HeroSection = ({myData}) => {
         <div className='hero-section-data'>
         <p className='intro-data'>Welcome to</p>
         <h1> {name} </h1>
-        <p> lorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsum</p>
+        <p>  Welcome to Trendss have a rich shopping experince with great deals and heavy discount.</p>
          <NavLink>
             <Button>Explore</Button>
          </NavLink>
