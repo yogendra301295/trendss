@@ -3,8 +3,6 @@ import styled from "styled-components";
 import { useProductContext } from "./context/productContaxt";
 
 const Products = () => {
- 
-
   const {myName} = useProductContext();
    
   return <Wrapper>
